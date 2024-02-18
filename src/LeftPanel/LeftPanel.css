@@ -1,0 +1,18 @@
+.text {
+    font-size: 90px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1877F2;
+}
+
+.desc{
+    font-size:30px;
+  
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    margin-left: 25px;
+}
