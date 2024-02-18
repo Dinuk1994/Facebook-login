@@ -1,13 +1,17 @@
 .container{
     display: flex;
+    background-color: rgb(240,242,245);
 }
+
 
 .rightSide{
     flex: 1;
-    padding-left: 20px;
+    
+   
 }
 
 .leftSide{
     flex: 1;
-    padding-right: 20px;
+   
+    margin-left: 150px;
 }

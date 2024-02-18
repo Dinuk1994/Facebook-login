@@ -1,0 +1,14 @@
+.main{
+    background-color: rgb(255,255,255) !important; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btnLogIn{
+    color: while;
+    background-color: #0866ff;
+    font-size: 20px;
+   font-weight: 100;
+   box-shadow: 0 0 10px rgba(255, 255, 255, 0.7) !important; 
+
+}

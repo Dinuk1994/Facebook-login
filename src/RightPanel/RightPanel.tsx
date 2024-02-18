@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import './RightPanel.css'
 
 function Copyright(props: any) {
   return (
@@ -41,7 +42,7 @@ export default function SignIn() {
 
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Container component="main" maxWidth="xs">
+      <Container className='main' component="main" maxWidth="xs">
         <CssBaseline />
         <Box
           sx={{
@@ -72,16 +73,15 @@ export default function SignIn() {
               id="password"
               autoComplete="current-password"
             />
-
-            <a href="">Forgotten Password</a>
            
             <Button
+            className='btnLogIn'
               type="submit"
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Login
+              Log In
             </Button>
             <Grid container>
               <Grid item xs>
@@ -89,11 +89,7 @@ export default function SignIn() {
                   Forgot password?
                 </Link>
               </Grid>
-              <Grid item>
-                <Link href="#" variant="body2">
-                  {"Don't have an account? Sign Up"}
-                </Link>
-              </Grid>
+              
             </Grid>
           </Box>
         </Box>
