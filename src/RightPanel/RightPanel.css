@@ -1,34 +1,42 @@
-.main{
-    background-color: rgb(255,255,255) !important; 
+.main {
+    background-color: rgb(255, 255, 255) !important;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding-bottom: 25px;
 }
 
-.btnLogIn{
+.btnLogIn {
     color: white !important;
     background-color: #0866ff !important;
     font-size: 20px !important;
-   font-weight: 100 !important;
-   box-shadow: 0 0 10px rgba(255, 255, 255, 0.7) !important; 
+    font-weight: 100 !important;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7) !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
 
 }
 
-.fp{
+.fp {
     color: #0866ff !important;
 }
 
-.hr{
+.cp {
+    color: black ;
+    font-weight: bold !important;
+}
+
+.hr {
     color: antiquewhite;
 }
 
-.btnCreateAccount{ color: white !important;
-    background-color: rgb(61,175,38) !important;
+.btnCreateAccount {
+    color: white !important;
+    background-color: rgb(61, 175, 38) !important;
     font-size: 15px !important;
-   font-weight: 100 !important;
-   box-shadow: 0 0 10px rgba(255, 255, 255, 0.7) !important; 
-   text-transform:  lowercase !important;
+    font-weight: 100 !important;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7) !important;
+    padding: 15px !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
 
-}
-.btnCreateAccount::first-letter {
-    text-transform: capitalize ;
 }

@@ -96,12 +96,20 @@ export default function SignIn() {
                             </Grid>
                         </Grid>
 
-
-
                     </Box>
+
                 </Box>
+
                 <Copyright sx={{ mt: 8, mb: 4 }} />
+
             </Container>
+            <Typography variant="body2" align="center" sx={{ mt: 2 }}>
+                <Link href="#" variant="body2" sx={{ textDecoration: 'none', color: 'inherit' }} className='cp'>
+                    Create a page
+                </Link>
+                &nbsp;for a celebrity, brand, or business.
+
+            </Typography>
         </ThemeProvider>
     );
 }
