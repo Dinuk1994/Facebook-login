@@ -51,25 +51,19 @@ export default function SignIn() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-            <LockOutlinedIcon />
-          </Avatar>
-          <Typography component="h1" variant="h5">
-            Sign in
-          </Typography>
+        
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
               margin="normal"
               required
               fullWidth
               id="email"
-              label="Email Address"
+              label="Email Address or phone number"
               name="email"
               autoComplete="email"
               autoFocus
             />
             <TextField
-              margin="normal"
               required
               fullWidth
               name="password"
@@ -78,17 +72,16 @@ export default function SignIn() {
               id="password"
               autoComplete="current-password"
             />
-            <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
-              label="Remember me"
-            />
+
+            <a href="">Forgotten Password</a>
+           
             <Button
               type="submit"
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Sign In
+              Login
             </Button>
             <Grid container>
               <Grid item xs>
