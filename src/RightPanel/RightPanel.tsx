@@ -12,7 +12,9 @@ import "./RightPanel.css";
 
 function Copyright(props: any) {
     return (
-        <div></div>
+        <div>
+            abcd
+        </div>
     );
 }
 
