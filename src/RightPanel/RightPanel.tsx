@@ -10,13 +10,13 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import "./RightPanel.css";
 
-function Copyright(props: any) {
-    return (
-        <div>
-            abcd
-        </div>
-    );
-}
+// function Copyright(props: any) {
+//     return (
+//         <div>
+           
+//         </div>
+//     );
+// }
 
 
 const defaultTheme = createTheme();
@@ -102,7 +102,7 @@ export default function SignIn() {
 
                 </Box>
 
-                <Copyright sx={{ mt: 8, mb: 4 }} />
+                {/* <Copyright sx={{ mt: 8, mb: 4 }} /> */}
 
             </Container>
             <Typography variant="body2" align="center" sx={{ mt: 2 }}>
